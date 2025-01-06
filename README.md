@@ -153,11 +153,8 @@ Alternatively build examples and shared library with Cmake
 
 ``` bash
 sudo apt-get install cmake
-cd wifi-scan
-mkdir build
-cd build
-cmake ..
-make
+cmake -S . -B build
+cmake --build build
 ```
 
 ### Used In
